@@ -12,19 +12,34 @@ Exploratory data analysis of global COVID-19 data using Python (Pandas, NumPy, M
 - Analyze monthly trends in the US, Canada, and Europe  
 - Merge and transform datasets for a unified pandemic view  
 
-### 🧠 Insights
-  -Highest total confirmed cases: United States, India, Brazil.
-- -China: Striking early increase followed by diminishing growth rate after the initial period.
-  -Single-day surge (Europe): France recorded the highest single-day surge among Germany, France, and Italy.
-  -Canada vs Australia: Canada showed better pandemic management metrics relative to Australia in our dataset.
-  -Distribution of death rates in Canada (death/confirmed):
+### 🧠 Key Insights from COVID-19 Analysis
+
+-Highest total confirmed cases: United States, India, Brazil.
+
+-China: Striking early increase followed by diminishing growth rate after the initial period.
+
+-Single-day surge (Europe): France recorded the highest single-day surge among Germany, France, and Italy.
+
+-Canada vs Australia: Canada showed better pandemic management metrics relative to Australia in our dataset.
+
+-Distribution of death rates in Canada (death/confirmed):
+
   Lowest: Grand Princess (as computed in the dataset)
+
   Highest: Quebec (as of the latest date)
-  -Top 5 countries by average daily deaths: United States, Brazil, India, Mexico, Italy.
-  -US total death evolution: Increased steadily, reaching a peak around May 2021 in the dataset.
-  -Highest average death rates during 2020: Yemen, MS Zaandam, Vanuatu.
-  -South Africa — recoveries vs deaths:
-  Total recoveries: 310,037,573
-  Total deaths: 10,250,036
-  Interpretation: (See notebook) — compare scale of recoveries vs deaths to infer outcome distribution for recorded cases.
-  -Highest US recovery rate observed: October 2020 (per dataset).
+
+-Top 5 countries by average daily deaths: United States, Brazil, India, Mexico, Italy.
+
+-US total death evolution: Increased steadily, reaching a peak around May 2021 in the dataset.
+
+-Highest average death rates during 2020: Yemen, MS Zaandam, Vanuatu.
+
+-South Africa — recoveries vs deaths:
+
+   Total recoveries: 310,037,573
+
+   Total deaths: 10,250,036
+
+  Interpretation: Compare scale of recoveries vs deaths to infer outcome distribution for recorded cases (see notebook).
+
+-Highest US recovery rate observed: October 2020 (per dataset).
